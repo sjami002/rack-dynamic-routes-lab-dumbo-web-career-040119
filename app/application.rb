@@ -17,7 +17,7 @@ class Application
     end
     resp.write item.price
   else
-    
+    resp.status
     end
  
  
