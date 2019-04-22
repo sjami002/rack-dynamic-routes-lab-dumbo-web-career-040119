@@ -23,6 +23,7 @@ class Application
   else
     resp.status = 404
     resp.write = "Route not found"
+  end
  
  
  
