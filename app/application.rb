@@ -11,7 +11,7 @@ class Application
  if req.path.match(/item/)
    
     item_name = req.path.split("/item/").last
-    item = 
+    item = @@item.
     
     end
  
