@@ -8,7 +8,7 @@ class Application
  
  
  
- if req.path.match(/item/)
+ if req.path.match(/items/)
    
     item_name = req.path.split("/item/").last
     
