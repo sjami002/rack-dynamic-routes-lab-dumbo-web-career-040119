@@ -15,6 +15,7 @@ class Application
     if item = @@items.find do |i| 
       i.name == item_name
     end
+    resp.write i.price
     end
  
  
