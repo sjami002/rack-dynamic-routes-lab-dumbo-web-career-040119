@@ -8,7 +8,7 @@ class Application
  
  
  
- 
+ if 
     @@items.each do |item|
       resp.write "#{item}\n"
     end
