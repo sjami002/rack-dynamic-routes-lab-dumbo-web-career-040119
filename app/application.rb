@@ -8,7 +8,7 @@ class Application
  
  
  
- if 
+ if req.path.match
     @@items.each do |item|
       resp.write "#{item}\n"
     end
