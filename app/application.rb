@@ -10,7 +10,7 @@ class Application
  
  if req.path.match(/item/)
    
-    item_name = 
+    item_name = req.path.split
     
     end
  
